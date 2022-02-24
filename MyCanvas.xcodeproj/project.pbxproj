@@ -13,6 +13,8 @@
 		CE543C9827C68F0500003196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE543C9627C68F0500003196 /* Main.storyboard */; };
 		CE543C9A27C68F0900003196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE543C9927C68F0900003196 /* Assets.xcassets */; };
 		CE543C9D27C68F0900003196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE543C9B27C68F0900003196 /* LaunchScreen.storyboard */; };
+		CE543CA527C68FDB00003196 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE543CA427C68FDB00003196 /* CanvasView.swift */; };
+		CE543CA727C7E15900003196 /* ZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE543CA627C7E15900003196 /* ZoomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE543C9927C68F0900003196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE543C9C27C68F0900003196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE543C9E27C68F0900003196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE543CA427C68FDB00003196 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		CE543CA627C7E15900003196 /* ZoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				CE543C9027C68F0500003196 /* AppDelegate.swift */,
+				CE543CA627C7E15900003196 /* ZoomView.swift */,
 				CE543C9227C68F0500003196 /* SceneDelegate.swift */,
 				CE543C9427C68F0500003196 /* ViewController.swift */,
+				CE543CA427C68FDB00003196 /* CanvasView.swift */,
 				CE543C9627C68F0500003196 /* Main.storyboard */,
 				CE543C9927C68F0900003196 /* Assets.xcassets */,
 				CE543C9B27C68F0900003196 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE543CA727C7E15900003196 /* ZoomView.swift in Sources */,
 				CE543C9527C68F0500003196 /* ViewController.swift in Sources */,
 				CE543C9127C68F0500003196 /* AppDelegate.swift in Sources */,
+				CE543CA527C68FDB00003196 /* CanvasView.swift in Sources */,
 				CE543C9327C68F0500003196 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

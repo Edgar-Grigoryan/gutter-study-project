@@ -9,11 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.addSubview(zoomView)
+        
     }
 
+   var zoomView = ZoomView(frame: .init(x: 0, y: 0, width: 3000, height: 2000))
+    
 
 }
 
