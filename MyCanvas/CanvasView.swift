@@ -9,10 +9,7 @@ import UIKit
 
 class CanvasView: UIView {
    
-    
-   
-    
-    var squareHeight: CGFloat = 40
+    var squareHeight: CGFloat = 33
    
     override init(frame: CGRect) {
         super.init(frame: frame)
