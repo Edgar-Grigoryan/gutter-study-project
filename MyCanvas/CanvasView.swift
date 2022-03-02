@@ -11,11 +11,16 @@ class CanvasView: UIView {
    
     var squareHeight: CGFloat = 33
    
+    // addelement
+    //removeelement
+    //elementForPoint -> element(point: cgpoint)
+    //var activeElement - element?
+    // canvasProtocol{didSelectElement, didDeselectElement}
+    // computetProperty
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = .red
-    drawSquare()
-       
+        drawSquare()
     }
     
     required init?(coder: NSCoder) {

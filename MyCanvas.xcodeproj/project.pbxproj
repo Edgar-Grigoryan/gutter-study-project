@@ -15,6 +15,8 @@
 		CE543C9D27C68F0900003196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE543C9B27C68F0900003196 /* LaunchScreen.storyboard */; };
 		CE543CA527C68FDB00003196 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE543CA427C68FDB00003196 /* CanvasView.swift */; };
 		CE543CA727C7E15900003196 /* ZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE543CA627C7E15900003196 /* ZoomView.swift */; };
+		CE543CAB27CB662100003196 /* ElementsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE543CAA27CB662000003196 /* ElementsPanel.swift */; };
+		CE543CD327CF92F500003196 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE543CD227CF92F400003196 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		CE543C9E27C68F0900003196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE543CA427C68FDB00003196 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		CE543CA627C7E15900003196 /* ZoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomView.swift; sourceTree = "<group>"; };
+		CE543CAA27CB662000003196 /* ElementsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsPanel.swift; sourceTree = "<group>"; };
+		CE543CD227CF92F400003196 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 			children = (
 				CE543C9027C68F0500003196 /* AppDelegate.swift */,
 				CE543CA627C7E15900003196 /* ZoomView.swift */,
+				CE543CAA27CB662000003196 /* ElementsPanel.swift */,
+				CE543CD227CF92F400003196 /* CollectionViewCell.swift */,
 				CE543C9227C68F0500003196 /* SceneDelegate.swift */,
 				CE543C9427C68F0500003196 /* ViewController.swift */,
 				CE543CA427C68FDB00003196 /* CanvasView.swift */,
@@ -146,7 +152,9 @@
 			files = (
 				CE543CA727C7E15900003196 /* ZoomView.swift in Sources */,
 				CE543C9527C68F0500003196 /* ViewController.swift in Sources */,
+				CE543CD327CF92F500003196 /* CollectionViewCell.swift in Sources */,
 				CE543C9127C68F0500003196 /* AppDelegate.swift in Sources */,
+				CE543CAB27CB662100003196 /* ElementsPanel.swift in Sources */,
 				CE543CA527C68FDB00003196 /* CanvasView.swift in Sources */,
 				CE543C9327C68F0500003196 /* SceneDelegate.swift in Sources */,
 			);
